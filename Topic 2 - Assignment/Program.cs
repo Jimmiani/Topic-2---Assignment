@@ -8,7 +8,7 @@
             Console.WriteLine((14 + 15 + 16) / 3);
             Console.WriteLine(Math.Round((14.0 + 15 + 16 + 17) / 4, 2));
             Console.WriteLine(Math.Round(Math.PI * (3 * 3), 1) + "cm^2");
-            Console.WriteLine("C# looks at both values on each side of the plus sign, and if either both of them are strings or one string and one integer, it will");
+            Console.WriteLine("C# looks at both values on each side of the plus sign, and if either both of them are strings or one string and one numerical value it will concatenate. If Both values are numerical, it will perform addition");
         }
     }
 }
